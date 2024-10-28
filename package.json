@@ -1,0 +1,21 @@
+{
+  "name": "mlbb-wiki-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "p-limit": "^6.1.0",
+    "puppeteer": "^23.6.0"
+  }
+}
